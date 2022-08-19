@@ -1,0 +1,54 @@
+.box-sizing{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100px;
+    height: auto;
+    background-color: #dee5f1;
+    overflow: hidden;
+    padding-top: 10px ;
+}
+
+.container{
+    width: 220px;
+    height: 350px;
+    display: block;
+    margin-left: 550px;
+    margin-top: 100px;
+   background-color: white;
+   padding: 6px;
+   border-radius: 15px;
+}
+
+img{
+    height: 200px;
+    border-radius: 20px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+.text{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: #212c41;
+    font-size: 15px;
+}
+
+.s-text{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 11px;
+    color:  #808080;
+}
+
+@media (min-width: 1440px;){
+    .container{
+        margin-left: 870px;
+        margin-top: 500px;
+    }
+    
+}
